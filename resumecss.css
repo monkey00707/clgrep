@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.res {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid #0000ff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.details {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid #0000ff;
+}
+
+.details th, .details td {
+    border: 1px solid #43c789; 
+    padding: 10px;
+    text-align: left;
+}
+
+.details th {
+    background-color: #f0f0f0;
+}
+
+.details a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.details a:hover {
+    color: #23527c;
+}
